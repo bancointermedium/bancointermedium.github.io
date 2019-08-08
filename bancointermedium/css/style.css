@@ -1,0 +1,62 @@
+/* HEIGHT 100% */
+html, body {height: 100%;}
+.bloco {min-height: 100%;}
+
+/* LOGO */
+.logo_text {
+	font-size: 2.0rem;
+	padding-top: 25px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+/* MENU */
+.navbar {
+	background-color: #ff7a00;
+}
+
+/* CABECALHO */
+.saldo h3 {
+	color: #656565;
+	margin-bottom: 0px;
+}
+
+.saldo h2 {
+	color: #ff7a00;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+.botao {
+	background-color: #fff;
+	margin-bottom: 5px;
+	border: solid 2px #ff7a00;
+	border-radius: 10px;
+}
+
+.botao1 {
+	padding-right: 54px;
+	padding-left: 54px;
+}
+
+.botao2 {
+	padding-right: 37px;
+	padding-left: 37px;
+}
+
+/* CUSTOM */
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+}
+
+.navbar-fixed {
+  position: relative;
+  height: 94px;
+}
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {
+  height: 94px;
+  line-height: 94px;
+}

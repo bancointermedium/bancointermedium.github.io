@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Banco Inter</title>
+		<link rel="icon" href="img/logo.png">
+
+		<!-- MATERIALIZE CSS -->
+  		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  		<!-- STYLE CSS -->
+  		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<header>
+			<div>
+				<nav class="navbar">
+					<div class="nav-wrapper container">
+						<h1 class="logo_text">Conta Digital</h1>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- CABECALHO -->
+		<section class="home">
+			<div class="row container">
+				<div class="col s12 center saldo">
+					<h3>Saldo em conta</h3>
+ 					<h2>R$ 15,37</h2>
+				</div>
+
+				<div class="row center">
+					<a href="extrato.html" class="btn btn-large botao botao1 black-text">Extrato</a><br>
+					<a href="#" class="btn btn-large botao botao2 black-text">Pagamentos</a><br>
+					<a href="#" class="btn btn-large botao black-text">Transferência</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- CORPO -->
+		<section class="bloco">
+			<div class="row center corpo">
+				<img src="img/corpo.png" alt="Icones Funções">
+			</div>
+		</section>
+
+		
+		<!-- JQUERY -->
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<!-- MATERIALIZE JS -->
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  		<!-- JAVASCRIPT -->
+  		<script>
+  			//INICIALIZAÇÃO
+  			$(document).ready(function(){
+  				//MENU MOBILE
+  				$(".button-collapse").sideNav();
+  			});
+  		</script>
+	</body>
+</html>

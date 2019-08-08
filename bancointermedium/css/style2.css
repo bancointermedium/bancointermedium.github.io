@@ -1,0 +1,89 @@
+/* HEIGHT 100% */
+html, body {height: 100%;}
+.bloco {min-height: 100%;}
+
+/* LOGO */
+.logo_text {
+	font-size: 2.0rem;
+	padding-top: 25px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+/* MENU */
+.navbar {
+	background-color: #ff7a00;
+}
+
+/* CABECALHO */
+.saldo h3 {
+	color: #656565;
+	margin-bottom: 0px;
+}
+
+.saldo h2 {
+	color: #ff7a00;
+	margin-bottom: 25px;
+	margin-top: 5px;
+}
+
+.botao {
+	background-color: #fff;
+	margin-bottom: 5px;
+	border: solid 2px #ff7a00;
+	border-radius: 10px;
+}
+
+.botao1 {
+	padding-right: 54px;
+	padding-left: 54px;
+}
+
+.botao2 {
+	padding-right: 37px;
+	padding-left: 37px;
+}
+
+/* EXTRATO */
+.extrato {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.extrato h3 {
+	color: #5f5f5f;
+	font-weight: 900;
+	border-top: solid 2px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.extrato h4 {
+	font-weight: 500;
+	border-bottom: solid 1px silver;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.extrato p {
+	font-weight: 300;
+	border-bottom: solid 1px silver;
+	text-transform: uppercase;
+}
+
+/* CUSTOM */
+nav.nav-extended .nav-wrapper {
+  min-height: 94px;
+}
+
+.navbar-fixed {
+  position: relative;
+  height: 94px;
+}
+
+nav, nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons, nav a.button-collapse i {
+  height: 94px;
+  line-height: 94px;
+}
